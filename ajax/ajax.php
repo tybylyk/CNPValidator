@@ -11,14 +11,12 @@ $_cnp = new CNPValidator($data['cnp']);
 
 /*
  * Check if there are any error
- * Take a look inside class from what errors can be generated
  */
 if (!$_cnp->error) {
     /*
      * First method means to get info about the possessor of CNP in one array
      * 
      * print_r($_cnp->fetchAllData());
-     * 
      * 
      * or second method, get specific information about the possessor of CNP
      *
